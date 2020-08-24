@@ -1,9 +1,11 @@
 import React from 'react';
+import Survey from './Survey';
+import './_create_survey.css';
 
 const CreateSurvey = (props) => {
     return (
-        <div>
-            Create Survey Page
+        <div className="create-survey-container">
+            <Survey />
         </div>
     )
 }

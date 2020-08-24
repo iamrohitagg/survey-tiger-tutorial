@@ -1,0 +1,33 @@
+.create-survey-container {
+    height: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-type-container {
+    margin-bottom: 30px;
+}
+
+.question-container {
+    width: 400px;
+    padding: 5px;
+}
+
+.answer-container {
+    width: 425px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer-container input {
+    width: 350px;
+    padding: 5px;
+    height: 20px;
+}
+
+.answer-container p {
+    cursor: pointer;
+}
